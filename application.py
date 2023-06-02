@@ -1,6 +1,8 @@
 from flask import Flask
+from flask import render_template
+
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
-    return "<html><body><h1>Testing!</h1></body></html>\n"
+def main():
+    return render_template("PageFiles/index.html")

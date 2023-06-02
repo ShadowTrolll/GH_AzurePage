@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Roboto', sans-serif;
+                color: ghostwhite;
+            }
+
+            html {
+                border: 0 none;
+                height: 100%;
+                width: 100%;
+                background-color:#181f1b;
+            }
+
+            .viewConfig {
+                margin: 6px 0px 0px 0px;
+                justify-content: center;
+                display: flex;
+            }
+
+            .viewConfig div {
+                padding: 2px 6px;
+                justify-content: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 6px;
+                border: 2px solid #3ddb77;
+                border-radius: 10px;
+            }
+
+            .viewConfig * {
+                margin: 4px 0px;
+            }
+
+            .metersView {
+                border: 0 none;
+                background-color:#181f1b;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 10px;
+                justify-content: center;
+            }
+
+            .meterDiv {
+                margin: 10px 0px;
+                max-width: 450px;
+                flex-direction: column;
+                border: 2px solid #434d47;
+                border-radius: 10px;
+                height: fit-content;
+            }
+
+            .meterDiv p {
+                margin: 20px;
+            }
+
+            .graphDiv canvas {
+                margin: 6px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="viewConfig">
+            <div>
+                <p>View meters</p>
+                <input type="number" name="" id="">
+                <p>to</p>
+                <input type="number" name="" id=""> 
+            </div>
+        </div>
+        <div class="metersView">
+            <div class="meterDiv">
+                <p>Meter 1</p>
+                <div class="graphDiv">
+                    <canvas id="graphCanvas"></canvas>
+                </div>
+            </div>
+            <div class="meterDiv">
+                <p>Meter 2</p>
+                <div class="graphDiv">
+                    <canvas id="graphCanvas2"></canvas>
+                </div>
+            </div>
+            <div class="meterDiv">
+                <p>Meter 3</p>
+                <div class="graphDiv">
+                    <canvas id="graphCanvas3"></canvas>
+                </div>
+            </div>
+        </div>
+        <script>
+            // Initialize Chart.js
+            var ctx = document.getElementById('graphCanvas').getContext('2d');
+            const plugin = {
+                id: 'customCanvasBackgroundColor',
+                beforeDraw: (chart, args, options) => {
+                const {ctx} = chart;
+                ctx.save();
+                ctx.globalCompositeOperation = 'destination-over';
+                ctx.fillStyle = options.color || 'lightgray';
+                ctx.fillRect(0, 0, chart.width, chart.height);
+                ctx.restore();
+                }
+            };
+            var chart = new Chart(ctx, {
+                type: 'line',
+                
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Live Graph',
+                        backgroundColor: 'rgba(0, 123, 255, 0.5)',
+                        borderColor: 'rgba(0, 123, 255, 1)',
+                        borderWidth: 1,
+                        data: []
+                    },
+                    {
+                        label: 'Live Graph',
+                        backgroundColor: 'red',
+                        borderColor: 'red',
+                        borderWidth: 1,
+                        borderDash: [1,5], 
+                        data: []
+                    }]
+                },
+
+
+                options: {
+                    responsive: true,
+
+                    elements:{
+                        point:{
+                            radius:0
+                        }
+                    },
+
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title:{
+                                color: 'black',
+                                display: true,
+                                text: 'Importance [-]'
+                            }
+                        },
+
+                        x: {
+                            title:{
+                                color: 'blck',
+                                display: true,
+                                text: 'Time [5min]'
+                            }
+                        }
+                    }
+                },
+
+                plugins:[plugin],
+            });
+
+            // Generate random data
+            function generateData() {
+                var data = [];
+                for (var i = 0; i < 20; i++) {
+                    data.push(Math.floor(Math.random() * 10) + 1);
+                }
+                return data;
+            }
+
+            // Update the graph with the generated data
+            function updateGraph() {
+                var data = generateData();
+                chart.data.labels = data.map(function(_, index) { return ''; });
+                chart.data.datasets[0].data = data;
+                chart.update();
+            }
+
+            function updateGraph02() {
+                var data = generateData();
+                chart.data.labels = data.map(function(_, index) { return ''; });
+                chart.data.datasets[1].data = data;
+                chart.update();
+            }
+
+            // Update the graph periodically
+            setInterval(updateGraph, 1000);
+            setInterval(updateGraph02, 1000);
+        </script>
+    </body>
+</html>
