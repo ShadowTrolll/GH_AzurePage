@@ -5,4 +5,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return render_template("PageFiles/index.html")
+    with open("PageFiles/index.html") as f:
+        return f.read()
