@@ -4,11 +4,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.scss">
+        <link rel="stylesheet" href="{{ url_for('styles') }}">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <title>I2WI</title>
-        
-
     </head>
     <body>
         <div style="display: flex;flex-direction: column;height: 100%;">
@@ -33,14 +31,6 @@
                     $(this).addClass('nav-btn-clicked');
                 });
             });
-
-
-            import {MDCDataTable} from '@material/data-table';
-            const dataTable = new MDCDataTable(document.querySelector('.mdc-data-table'));    
-            
-            
-            
-
         </script>
     </body>
 </html>

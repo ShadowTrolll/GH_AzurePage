@@ -5,280 +5,201 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="{{ url_for('styles') }}">
 
         <style>
-            * {
-                margin: 0px;
-                padding: 0px;
-                font-family: 'Roboto', sans-serif;
-                color: ghostwhite;
-            }
-
-            html {
-                border: 0 none;
-                height: 100%;
-                width: 100%;
-                background-color:#181f1b;
-            }
-
             .viewConfig {
-                margin: 6px 0px 0px 0px;
-                justify-content: center;
-                display: flex;
+            margin: 6px 0px 0px 0px;
+            justify-content: center;
+            display: flex;
             }
 
             .viewConfig div {
-                padding: 2px 6px;
-                justify-content: center;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap: 6px;
-                border: 2px solid #3ddb77;
-                border-radius: 10px;
+            padding: 2px 6px;
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 6px;
+            border: 2px solid #3ddb77;
+            border-radius: 10px;
             }
 
             .viewConfig * {
-                margin: 4px 0px;
+            margin: 4px 0px;
             }
 
             .metersView {
-                border: 0 none;
-                background-color:#181f1b;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap: 10px;
-                justify-content: center;
+            border: 0 none;
+            background-color:#181f1b;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
             }
 
             .meterDiv {
-                margin: 10px 0px;
-                max-width: 450px;
-                flex-direction: column;
-                border: 2px solid #434d47;
-                border-radius: 10px;
-                height: fit-content;
+            margin: 10px 0px;
+            max-width: 450px;
+            flex-direction: column;
+            border: 2px solid #434d47;
+            border-radius: 10px;
+            height: fit-content;
             }
 
             .meterDiv p {
-                margin: 20px;
+            margin: 20px;
             }
 
             .graphDiv canvas {
-                margin: 6px;
+            margin: 6px;
             }
 
-            .navbar {
-                flex: 0 1 auto;
-                background-color:#434d47;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                flex-wrap: wrap;
-            }
 
-            @media only screen and (max-width: 500px) {
-                .navbar .navbar-buttons {
-                    justify-content: center;
-                    gap: 6px;
-                }
-
-                .navbar-buttons a {
-                    flex-grow: 1;
-                }
-            }
-
-            .navbar-buttons {
-                margin: 6px 0px;
-                display: flex;
-                flex-wrap: wrap;
-                margin-right: auto;
-            }
-
-            .nav-btn-clicked {
-                background: #3ddb77;
-            }
-
-            .navbar-buttons a {
-                color: ghostwhite;
-                text-align: center;
-                padding: 12px 30px 12px 30px;
-                margin: 0px 10px;
-                text-decoration: none;
-                font-size: 24px;
-                border-bottom: solid 4px transparent;
-                transition: all 300ms ease-in-out;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-                border-radius: 20px;
-                white-space: nowrap;
-            }
-
-            .navbar-buttons a:hover {
-                border-bottom: solid 4px #47fc89;
-            }
-
-            .Header {
-                display: flex;
-                flex: 0 1 auto;
-                justify-content: center;
-                padding-top: 20px;
-                padding-bottom: 20px;
-            }
-
-            .Header a img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 100%;
-                max-width: 800px;
-            }
-
-           
 
 
 
 
             .range_container {
-                display: flex;
-                flex-direction: column;
-                width: 80%;
-                margin: 5% auto;
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            margin: 5% auto;
             }
 
             .sliders_control {
-                position: relative;
-                min-height: 50px;
+            position: relative;
+            min-height: 50px;
             }
 
             .form_control {
-                position: relative;
-                display: flex;
-                justify-content: space-between;
-                font-size: 24px;
-                color: #635a5a;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            color: #635a5a;
             }
 
             input[type=range]::-webkit-slider-thumb {
-                -webkit-appearance: none;
-                pointer-events: all;
-                width: 24px;
-                height: 24px;
-                background-color: #fff;
-                border-radius: 50%;
-                box-shadow: 0 0 0 1px #C6C6C6;
+            -webkit-appearance: none;
+            pointer-events: all;
+            width: 24px;
+            height: 24px;
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px #C6C6C6;
             cursor: pointer;
-                }
+            }
 
             input[type=range]::-moz-range-thumb {
-                -webkit-appearance: none;
-                pointer-events: all;
-                width: 24px;
-                height: 24px;
-                background-color: #fff;
-                border-radius: 50%;
-                box-shadow: 0 0 0 1px #C6C6C6;
-                cursor: pointer;  
+            -webkit-appearance: none;
+            pointer-events: all;
+            width: 24px;
+            height: 24px;
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px #C6C6C6;
+            cursor: pointer;  
             }
 
             input[type=range]::-webkit-slider-thumb:hover {
-                background: #f7f7f7;
+            background: #f7f7f7;
             }
 
             input[type=range]::-webkit-slider-thumb:active {
-                box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
-                -webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+            box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+            -webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
             }
 
             input[type="number"] {
-                color: #8a8383;
-                width: 50px;
-                height: 30px;
-                font-size: 20px;
-                border: none;
+            color: #8a8383;
+            width: 50px;
+            height: 30px;
+            font-size: 20px;
+            border: none;
             }
 
             input[type=number]::-webkit-inner-spin-button, 
             input[type=number]::-webkit-outer-spin-button {  
-                opacity: 1;
+            opacity: 1;
             }
 
             input[type="range"] {
-                -webkit-appearance: none; 
-                appearance: none;
-                height: 2px;
-                width: 100%;
-                position: absolute;
-                background-color: #C6C6C6;
-                pointer-events: none;
+            -webkit-appearance: none; 
+            appearance: none;
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            background-color: #C6C6C6;
+            pointer-events: none;
             }
 
             #fromSlider {
-                height: 0;
-                z-index: 1;
+            height: 0;
+            z-index: 1;
             }   
 
             .card {
-                padding: 1rem;
-                border: 1px solid black;
-                margin: 1rem;
+            padding: 1rem;
+            border: 1px solid black;
+            margin: 1rem;
             }
 
             .meterDiv{
-                margin: 0.5rem;
-                width: 1200px;
-                height: 500px;
-                }
+            margin: 0.5rem;
+            width: 1200px;
+            height: 500px;
+            }
 
             .card_img{
-                max-width:100%;
-                max-height: 90%;
-                object-fit: contain;
+            max-width:100%;
+            max-height: 90%;
+            object-fit: contain;
             }
 
             .card_container{
-                width: auto;
-                height: auto;
-                flex-direction: row;
-                align-content: center;
-                display: flex;
-                flex-wrap: wrap;
+            width: auto;
+            height: auto;
+            flex-direction: row;
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
 
             }
 
             .graphDiv{
-                width: 100%;
-                height: 90%;
+            width: 100%;
+            height: 90%;
             }
 
             .meter_heading{
-                width: 100%;
-                align-content: center;
-                justify-content: center;
-                font-family: monospace;
+            width: 100%;
+            align-content: center;
+            justify-content: center;
+            font-family: monospace;
 
-                text-align: center;
-                color: #3ddb77;
-                font-size: 2.5rem;
+            text-align: center;
+            color: #3ddb77;
+            font-size: 2.5rem;
             }
 
             .slider-header{
-                font-size: 3rem;
-                font-family: monospace;
-                color: #47fc89;
+            font-size: 3rem;
+            font-family: monospace;
+            color: #47fc89;
             }
 
             .slider-header-container{
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                margin-top: 40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            margin-top: 40px;
             }
-
         </style>
     </head>
     <body>
-        <div style="display: flex;flex-direction: column;height: 100%;"></div>
+        <div style="display: flex;flex-direction: column;height: 100%;">
             <div class="Header">
                 <p style="font-size: 40px; color: ghostwhite;"><span style="color: #47fc89;">Green</span>Hack 2023</p>
             </div>
@@ -320,7 +241,7 @@
             </div>
 
 
-            
+        </div>
         <script>
 
 

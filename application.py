@@ -1,5 +1,5 @@
 from flask import Flask,jsonify
-from flask import render_template
+from flask import render_template, send_file
 import numpy as np
 
 
@@ -36,3 +36,7 @@ def regulation():
 @app.route("/")
 def main():
     return render_template("index.html")
+
+@app.route("/styles")
+def styles():
+    return send_file("PageFiles/styles.css")
