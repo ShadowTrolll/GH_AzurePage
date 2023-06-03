@@ -198,7 +198,7 @@
             }
         </style>
     </head>
-    <body>
+    <body onload="initView()">
         <div style="display: flex;flex-direction: column;height: 100%;">
             <div class="Header">
                 <p style="font-size: 40px; color: ghostwhite;"><span style="color: #47fc89;">Green</span>Hack 2023</p>
@@ -243,9 +243,6 @@
 
         </div>
         <script>
-
-
-
             var slider_start = 0;
             var slider_end = 0;
             var slider_update_timeout = 500;
@@ -253,6 +250,7 @@
             var meters = {{meter_data | tojson }};
             var max_bound = {{max_bound}};
             var min_bound = 0;
+
 
 
             //update components
@@ -389,6 +387,7 @@
                     slider_end = to;
                 }
                 slider_start = fromSlider.value;
+                slider_end=toSlider.value;
                 clearTimeout(temp_timeout_idx);
                 temp_timeout_idx = setTimeout(function(){
                     draw_cards(slider_end-slider_start,slider_start);
@@ -406,6 +405,7 @@
                     toInput.value = from;
                     toSlider.value = from;
                 }
+                slider_start = fromSlider.value;
                 slider_end=toSlider.value;
                 clearTimeout(temp_timeout_idx);
                 temp_timeout_idx = setTimeout(function(){
@@ -455,6 +455,17 @@
             toInput.oninput = () => controlToInput(toSlider, fromInput, toInput, toSlider);
 
 
+            function initView() {
+                const [from, to] = getParsed(fromInput, toInput);
+                fromSlider.value = from;
+                toSlider.value = to;
+                fillSlider(fromInput, toInput, '#C6C6C6', '#25daa5', toSlider);
+                clearTimeout(temp_timeout_idx);
+                temp_timeout_idx = setTimeout(function(){
+                    draw_cards(to-from,from);
+                },slider_update_timeout);
+            }
+
             //create image cards
 
             function draw_cards(cnt,start_idx){
@@ -464,45 +475,40 @@
                 const apiResult = [{
                     title: "Meter1",
                     description: "desc1",
-                    img_url: "https://freesvg.org/img/uno-r3.png"
+                    img_url: "{{ url_for('get_image', id=1)}}"
                     }, {
                     title: "Meter2",
                     description: "desc2",
-                    output:  "https://freesvg.org/img/uno-r3.png"
+                    img_url:  "{{ url_for('get_image', id=2)}}"
                     }, {
                     title: "Meter3",
                     description: "desc3",
-                    img_url:  "https://freesvg.org/img/uno-r3.png"},
-                    {
+                    img_url:  "{{ url_for('get_image', id=3)}}"
+                    }, {
                     title: "Meter4",
                     description: "desc3",
-                    img_url:  "https://freesvg.org/img/uno-r3.png"
+                    img_url:  "{{ url_for('get_image', id=4)}}"
                 }];
-                //apiResult.forEach((result, idx) => {
-                // Create card element
+                
                 for(var i = 0;i<cnt;i++){ 
-                const card = document.createElement('div');
-                card.classList = 'card-body';
-                result = apiResult[0]
+                    const card = document.createElement('div');
+                    card.classList = 'card-body';
+                    result = apiResult[(i+1) % 4]
 
-                // Construct card content
-                const content = `
-                    <div class="meterDiv">
-                        <p class = "meter_heading">${result.title}</p>
-                        <div class="graphDiv">
-                            <img class = "card_img" src = "${result.img_url}">
+                    // Construct card content
+                    const content = `
+                        <div class="meterDiv">
+                            <p class = "meter_heading">Meter ${Number(start_idx)+i}</p>
+                            <div class="graphDiv">
+                                <img class = "card_img" src = "${result.img_url}">
+                            </div>
                         </div>
-                    </div>
-                `;
+                    `;
 
-                // Append newly created card element to the container
-                container.innerHTML += content;
-                }//)
+                    // Append newly created card element to the container
+                    container.innerHTML += content;
+                }
             }
-            
-
-
-        
         </script>
     </body>
 </html>

@@ -1,4 +1,4 @@
-from flask import Flask,jsonify
+from flask import Flask,jsonify, request
 from flask import render_template, send_file
 import numpy as np
 
@@ -40,3 +40,7 @@ def main():
 @app.route("/styles")
 def styles():
     return send_file("PageFiles/styles.css")
+
+@app.route("/get_image")
+def get_image():
+    return send_file("PageFiles/images/Figure_" + request.args.get('id') + ".png")
