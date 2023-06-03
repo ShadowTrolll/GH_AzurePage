@@ -1,9 +1,20 @@
 from flask import Flask,jsonify, request
 from flask import render_template, send_file
 import numpy as np
-
+import json
 
 app = Flask(__name__,template_folder='PageFiles')
+
+
+def get_dummy_data():
+    dummy_url = './dummydata.json'
+    f = open(dummy_url,'r')
+    js = json.load(f)
+    result = []
+    for item in js:
+        temp = [item['meter_id'],item['static_importance'],item['meter_type']]
+        result.append(temp)
+    return result
 
 
 @app.route("/get")
@@ -11,6 +22,7 @@ def generate_graph_data():
     data_arr = np.random.randn(20)*100
     app.logger.info(data_arr)
     return jsonify(data=data_arr)
+
 
 @app.route("/meters",methods=['POST','GET'])
 def meters():
@@ -23,7 +35,8 @@ def meters():
 
 @app.route("/home",methods=['GET','POST'])
 def home():
-    return render_template("index.html")
+    data = get_dummy_data()
+    return render_template("index.html",data = data)
 
 @app.route("/marketplace",methods = ['POST','GET'])
 def marketplace():
@@ -35,7 +48,8 @@ def regulation():
 
 @app.route("/")
 def main():
-    return render_template("index.html")
+    data = get_dummy_data()
+    return render_template("index.html",data= data)
 
 @app.route("/styles")
 def styles():

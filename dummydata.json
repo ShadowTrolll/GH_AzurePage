@@ -1,0 +1,5002 @@
+[
+    {
+      "meter_id": 1,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 2,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 3,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 4,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 5,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 6,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 7,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 8,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 9,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 10,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 11,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 12,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 13,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 14,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 15,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 16,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 17,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 18,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 19,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 20,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 21,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 22,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 23,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 24,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 25,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 26,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 27,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 28,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 29,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 30,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 31,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 32,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 33,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 34,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 35,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 36,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 37,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 38,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 39,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 40,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 41,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 42,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 43,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 44,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 45,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 46,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 47,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 48,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 49,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 50,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 51,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 52,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 53,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 54,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 55,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 56,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 57,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 58,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 59,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 60,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 61,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 62,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 63,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 64,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 65,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 66,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 67,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 68,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 69,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 70,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 71,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 72,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 73,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 74,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 75,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 76,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 77,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 78,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 79,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 80,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 81,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 82,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 83,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 84,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 85,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 86,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 87,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 88,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 89,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 90,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 91,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 92,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 93,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 94,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 95,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 96,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 97,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 98,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 99,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 100,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 101,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 102,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 103,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 104,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 105,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 106,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 107,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 108,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 109,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 110,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 111,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 112,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 113,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 114,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 115,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 116,
+      "meter_type": "charging_station",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 117,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 118,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 119,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 120,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 121,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 122,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 123,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 124,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 125,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 126,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 127,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 128,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 129,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 130,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 131,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 132,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 133,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 134,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 135,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 136,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 137,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 138,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 139,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 140,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 141,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 142,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 143,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 144,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 145,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 146,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 147,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 148,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 149,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 150,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 151,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 152,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 153,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 154,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 155,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 156,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 157,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 158,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 159,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 160,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 161,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 162,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 163,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 164,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 165,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 166,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 167,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 168,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 169,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 170,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 171,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 172,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 173,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 174,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 175,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 176,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 177,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 178,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 179,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 180,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 181,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 182,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 183,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 184,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 185,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 186,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 187,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 188,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 189,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 190,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 191,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 192,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 193,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 194,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 195,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 196,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 197,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 198,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 199,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 200,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 201,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 202,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 203,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 204,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 205,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 206,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 207,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 208,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 209,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 210,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 211,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 212,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 213,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 214,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 215,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 216,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 217,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 218,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 219,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 220,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 221,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 222,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 223,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 224,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 225,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 226,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 227,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 228,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 229,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 230,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 231,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 232,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 233,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 234,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 235,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 236,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 237,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 238,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 239,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 240,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 241,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 242,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 243,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 244,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 245,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 246,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 247,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 248,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 249,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 250,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 251,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 252,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 253,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 254,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 255,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 256,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 257,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 258,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 259,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 260,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 261,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 262,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 263,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 264,
+      "meter_type": "charging_station",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 265,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 266,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 267,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 268,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 269,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 270,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 271,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 272,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 273,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 274,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 275,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 276,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 277,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 278,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 279,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 280,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 281,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 282,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 283,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 284,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 285,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 286,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 287,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 288,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 289,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 290,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 291,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 292,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 293,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 294,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 295,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 296,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 297,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 298,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 299,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 300,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 301,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 302,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 303,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 304,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 305,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 306,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 307,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 308,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 309,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 310,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 311,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 312,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 313,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 314,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 315,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 316,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 317,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 318,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 319,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 320,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 321,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 322,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 323,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 324,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 325,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 326,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 327,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 328,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 329,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 330,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 331,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 332,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 333,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 334,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 335,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 336,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 337,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 338,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 339,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 340,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 341,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 342,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 343,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 344,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 345,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 346,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 347,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 348,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 349,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 350,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 351,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 352,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 353,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 354,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 355,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 356,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 357,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 358,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 359,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 360,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 361,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 362,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 363,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 364,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 365,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 366,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 367,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 368,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 369,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 370,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 371,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 372,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 373,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 374,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 375,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 376,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 377,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 378,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 379,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 380,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 381,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 382,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 383,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 384,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 385,
+      "meter_type": "charging_station",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 386,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 387,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 388,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 389,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 390,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 391,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 392,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 393,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 394,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 395,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 396,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 397,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 398,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 399,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 400,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 401,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 402,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 403,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 404,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 405,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 406,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 407,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 408,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 409,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 410,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 411,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 412,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 413,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 414,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 415,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 416,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 417,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 418,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 419,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 420,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 421,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 422,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 423,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 424,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 425,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 426,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 427,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 428,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 429,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 430,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 431,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 432,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 433,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 434,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 435,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 436,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 437,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 438,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 439,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 440,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 441,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 442,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 443,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 444,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 445,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 446,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 447,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 448,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 449,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 450,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 451,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 452,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 453,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 454,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 455,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 456,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 457,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 458,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 459,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 460,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 461,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 462,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 463,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 464,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 465,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 466,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 467,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 468,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 469,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 470,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 471,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 472,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 473,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 474,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 475,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 476,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 477,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 478,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 479,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 480,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 481,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 482,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 483,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 484,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 485,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 486,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 487,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 488,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 489,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 490,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 491,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 492,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 493,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 494,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 495,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 496,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 497,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 498,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 499,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 500,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 501,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 502,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 503,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 504,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 505,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 506,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 507,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 508,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 509,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 510,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 511,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 512,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 513,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 514,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 515,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 516,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 517,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 518,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 519,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 520,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 521,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 522,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 523,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 524,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 525,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 526,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 527,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 528,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 529,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 530,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 531,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 532,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 533,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 534,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 535,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 536,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 537,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 538,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 539,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 540,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 541,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 542,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 543,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 544,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 545,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 546,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 547,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 548,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 549,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 550,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 551,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 552,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 553,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 554,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 555,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 556,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 557,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 558,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 559,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 560,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 561,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 562,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 563,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 564,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 565,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 566,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 567,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 568,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 569,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 570,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 571,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 572,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 573,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 574,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 575,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 576,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 577,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 578,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 579,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 580,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 581,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 582,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 583,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 584,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 585,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 586,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 587,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 588,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 589,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 590,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 591,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 592,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 593,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 594,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 595,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 596,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 597,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 598,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 599,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 600,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 601,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 602,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 603,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 604,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 605,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 606,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 607,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 608,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 609,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 610,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 611,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 612,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 613,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 614,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 615,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 616,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 617,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 618,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 619,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 620,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 621,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 622,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 623,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 624,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 625,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 626,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 627,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 628,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 629,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 630,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 631,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 632,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 633,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 634,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 635,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 636,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 637,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 638,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 639,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 640,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 641,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 642,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 643,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 644,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 645,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 646,
+      "meter_type": "administrative_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 647,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 648,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 649,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 650,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 651,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 652,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 653,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 654,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 655,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 656,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 657,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 658,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 659,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 660,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 661,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 662,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 663,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 664,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 665,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 666,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 667,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 668,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 669,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 670,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 671,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 672,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 673,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 674,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 675,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 676,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 677,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 678,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 679,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 680,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 681,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 682,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 683,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 684,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 685,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 686,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 687,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 688,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 689,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 690,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 691,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 692,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 693,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 694,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 695,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 696,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 697,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 698,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 699,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 700,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 701,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 702,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 703,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 704,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 705,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 706,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 707,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 708,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 709,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 710,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 711,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 712,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 713,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 714,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 715,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 716,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 717,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 718,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 719,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 720,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 721,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 722,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 723,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 724,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 725,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 726,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 727,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 728,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 729,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 730,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 731,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 732,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 733,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 734,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 735,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 736,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 737,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 738,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 739,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 740,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 741,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 742,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 743,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 744,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 745,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 746,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 747,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 748,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 749,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 750,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 751,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 752,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 753,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 754,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 755,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 756,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 757,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 758,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 759,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 760,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 761,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 762,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 763,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 764,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 765,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 766,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 767,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 768,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 769,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 770,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 771,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 772,
+      "meter_type": "residential_building",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 773,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 774,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 775,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 776,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 777,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 778,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 779,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 780,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 781,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 782,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 783,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 784,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 785,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 786,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 787,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 788,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 789,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 790,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 791,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 792,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 793,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 794,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 795,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 796,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 797,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 798,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 799,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 800,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 801,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 802,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 803,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 804,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 805,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 806,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 807,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 808,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 809,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 810,
+      "meter_type": "charging_station",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 811,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 812,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 813,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 814,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 815,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 816,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 817,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 818,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 819,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 820,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 821,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 822,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 823,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 824,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 825,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 826,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 827,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 828,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 829,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 830,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 831,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 832,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 833,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 834,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 835,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 836,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 837,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 838,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 839,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 840,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 841,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 842,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 843,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 844,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 845,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 846,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 847,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 848,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 849,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 850,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 851,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 852,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 853,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 854,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 855,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 856,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 857,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 858,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 859,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 860,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 861,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 862,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 863,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 864,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 865,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 866,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 867,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 868,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 869,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 870,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 871,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 872,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 873,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 874,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 875,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 876,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 877,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 878,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 879,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 880,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 881,
+      "meter_type": "charging_station",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 882,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 883,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 884,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 885,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 886,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 887,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 888,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 889,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 890,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 891,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 892,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 893,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 894,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 895,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 896,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 897,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 898,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 899,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 900,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 901,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 902,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 903,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 904,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 905,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 906,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 907,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 908,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 909,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 910,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 911,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 912,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 913,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 914,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 915,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 916,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 917,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 918,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 919,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 920,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 921,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 922,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 923,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 924,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 925,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 926,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 927,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 928,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 929,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 930,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 931,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 932,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 933,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 934,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 935,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 936,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 937,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 938,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 939,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 940,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 941,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 942,
+      "meter_type": "charging_station",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 943,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 944,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 945,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 946,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 947,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 948,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 949,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 950,
+      "meter_type": "administrative_building",
+      "static_importance": 1
+    },
+    {
+      "meter_id": 951,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 952,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 953,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 954,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 955,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 956,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 957,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 958,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 959,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 960,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 961,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 962,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 963,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 964,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 965,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 966,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 967,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 968,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 969,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 970,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 971,
+      "meter_type": "charging_station",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 972,
+      "meter_type": "administrative_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 973,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 974,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 975,
+      "meter_type": "charging_station",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 976,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 977,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 978,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    },
+    {
+      "meter_id": 979,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 980,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 981,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 982,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 983,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 984,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 985,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 986,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 987,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 988,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 989,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 990,
+      "meter_type": "administrative_building",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 991,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 992,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 993,
+      "meter_type": "residential_building",
+      "static_importance": 0.3
+    },
+    {
+      "meter_id": 994,
+      "meter_type": "residential_building",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 995,
+      "meter_type": "residential_building",
+      "static_importance": 0.4
+    },
+    {
+      "meter_id": 996,
+      "meter_type": "residential_building",
+      "static_importance": 0.6
+    },
+    {
+      "meter_id": 997,
+      "meter_type": "charging_station",
+      "static_importance": 0.7
+    },
+    {
+      "meter_id": 998,
+      "meter_type": "photovoltaic",
+      "static_importance": 0.5
+    },
+    {
+      "meter_id": 999,
+      "meter_type": "charging_station",
+      "static_importance": 0.8
+    },
+    {
+      "meter_id": 1000,
+      "meter_type": "administrative_building",
+      "static_importance": 0.9
+    }
+  ]

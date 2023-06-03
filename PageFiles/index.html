@@ -21,8 +21,74 @@
                     <a href="{{ url_for('marketplace')}}" ><b>Regulator Marketplace</b></a>
                 </div>
             </div>
+
+            <div class="table_container">
+                <table id = "data_table">
+                    <thead>
+                      <tr>
+                        <th onclick="sortTable(0)">Meter ID <span id="sortIcon0" style="display: none;">&#8595;</span></th>
+                        <th onclick="sortTable(1)">Static Importance <span id="sortIcon1" style="display: none;">&#8595;</span></th>
+                        <th onclick="sortTable(2)">Meter Type <span id="sortIcon2" style="display: none;">&#8595;</span></th>
+                      </tr>
+                    </thead>
+                    <tbody id = 'tbody'>
+                      
+                    </tbody>
+                  </table>
+            </div>
+
         </div>
         <script>
+
+            var dta = {{ data | tojson }};
+            const table = document.getElementById('data_table');
+                const tbody = table.querySelector('tbody');
+                dta.forEach(function(rowData) {
+                    var row = document.createElement("tr");
+                    Object.values(rowData).forEach(function(value) {
+                        var cell = document.createElement("td");
+                        cell.textContent = value;
+                        row.appendChild(cell);
+                    });
+                    tbody.appendChild(row);
+                });
+
+
+            const sortIcons = document.querySelectorAll('[id^=sortIcon]');
+            console.log(sortIcons);
+            let sortOrder = Array.from({ length: sortIcons.length }).fill(-1);
+            
+ 
+            function sortTable(column) {
+                const table = document.querySelector('table');
+                
+                console.log(table);
+                
+                const tbody = table.querySelector('tbody');
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                console.log(rows);
+                rows.sort((a, b) => {
+                    const cellA = a.querySelectorAll('td')[column].innerText.toLowerCase();
+                    const cellB = b.querySelectorAll('td')[column].innerText.toLowerCase();
+                    if (cellA < cellB) {
+                    return -1 * sortOrder[column];
+                    } else if (cellA > cellB) {
+                    return 1 * sortOrder[column];
+                    }
+                    return 0;
+                });
+
+                rows.forEach(row => tbody.appendChild(row));
+
+                    // Reset sort icons
+                    sortIcons.forEach(icon => icon.style.display = 'none');
+                    // Toggle sort icon for the clicked column
+                    sortIcons[column].style.display = 'inline-block';
+
+                    // Update sort order
+                    sortOrder[column] *= -1;
+                }
+
             $('.navbar-buttons a').each(function(index) {
                 $(this).on("click", function() {
                     $('.navbar-buttons a').each(function(index) {
