@@ -1,8 +1,52 @@
-from flask import Flask
+from flask import Flask,jsonify
 from flask import render_template
+import numpy as np
 
-app = Flask(__name__)
+
+app = Flask(__name__,template_folder='PageFiles')
+
+
+@app.route("/get")
+def generate_graph_data():
+    data_arr = np.random.randn(20)*100
+    app.logger.info(data_arr)
+    return jsonify(data=data_arr)
+
+@app.route("/meters",methods=['POST','GET'])
+def meters():
+    meters = {}
+    for i in range(288):
+        meters[i] = [i,"resiential",123,"https://freesvg.org/img/uno-r3.png"]
+
+    meters_compressed = jsonify(meters)
+    return render_template("meterview.html",meter_data = meters,max_bound = len(meters.keys()))
+
+@app.route("/home",methods=['GET','POST'])
+def home():
+    return render_template("index.html")
+
+@app.route("/marketplace",methods = ['POST','GET'])
+def marketplace():
+    return render_template('marketplace.html')
+
+@app.route("/regulation",methods=['POST','GET'])
+def regulation():
+    return render_template('regulation.html')
 
 @app.route("/")
 def main():
-    return render_template("PageFiles/index.html")
+
+
+    meters = {}
+    for i in range(288):
+        meters[i] = [i,"resiential",123,"https://freesvg.org/img/uno-r3.png"]
+
+    meters_compressed = jsonify(meters)
+
+    
+    app.logger.info("app running")
+    return render_template("index.html")
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

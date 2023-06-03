@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <title>I2WI</title>
+
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            html, body {
+                border: 0 none;
+                height: 100%;
+                width: 100%;
+                background-color:#181f1b;
+            }
+
+            .Header {
+                display: flex;
+                flex: 0 1 auto;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .Header a img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                max-width: 800px;
+            }
+
+            .navbar {
+                flex: 0 1 auto;
+                background-color:#434d47;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            @media only screen and (max-width: 500px) {
+                .navbar .navbar-buttons {
+                    justify-content: center;
+                    gap: 6px;
+                }
+
+                .navbar-buttons a {
+                    flex-grow: 1;
+                }
+            }
+
+            .navbar-buttons {
+                margin: 6px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: auto;
+            }
+
+            .nav-btn-clicked {
+                background: #3ddb77;
+            }
+
+            .navbar-buttons a {
+                color: ghostwhite;
+                text-align: center;
+                padding: 12px 30px 12px 30px;
+                margin: 0px 10px;
+                text-decoration: none;
+                font-size: 24px;
+                border-bottom: solid 4px transparent;
+                transition: all 300ms ease-in-out;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                white-space: nowrap;
+            }
+
+            .navbar-buttons a:hover {
+                border-bottom: solid 4px #47fc89;
+            }
+
+            .main {
+                margin-left: 7%;
+                margin-right: 7%;
+                border: none;
+                min-height: 2000px;
+                display: flex;
+            }
+
+
+            .err{
+                color: #3ddb77;
+                font-size: 30px;
+                margin-top: 2rem;
+                justify-content: center;
+                justify-self: center;
+                align-self: center;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: column;height: 100%;">
+            <div class="Header">
+                <p style="font-size: 40px; color: ghostwhite;"><span style="color: #47fc89;">Green</span>Hack 2023</p>
+            </div>
+            <div class="navbar">
+                <div class="navbar-buttons">
+                    <a href="{{url_for('home')}}" ><b>Home</b></a>
+                    <a href="{{ url_for('meters') }}" ><b>Meter view</b></a>
+                    <a class="nav-btn-clicked" href="{{ url_for('regulation') }}" ><b> Grid Regulation</b></a>
+                    <a href="{{ url_for('marketplace')}}" ><b>Regulator Marketplace</b></a>
+                </div>
+            </div>
+
+
+            <p class="err"> We are sorry but there are NO REGULATORS available, but do not worry, you can always pick one at the marketplace or you can program your own.</p>
+
+
+            <!--<iframe src="./home.html" class="main" name="content_frame"></iframe>-->
+        </div>
+        <script>
+            $('.navbar-buttons a').each(function(index) {
+                $(this).on("click", function() {
+                    $('.navbar-buttons a').each(function(index) {
+                        $(this).removeClass('nav-btn-clicked');
+                    });
+                    $(this).addClass('nav-btn-clicked');
+                });
+            });
+
+        </script>
+    </body>
+</html>

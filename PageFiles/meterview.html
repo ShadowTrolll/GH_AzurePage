@@ -68,40 +68,286 @@
             .graphDiv canvas {
                 margin: 6px;
             }
+
+            .navbar {
+                flex: 0 1 auto;
+                background-color:#434d47;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            @media only screen and (max-width: 500px) {
+                .navbar .navbar-buttons {
+                    justify-content: center;
+                    gap: 6px;
+                }
+
+                .navbar-buttons a {
+                    flex-grow: 1;
+                }
+            }
+
+            .navbar-buttons {
+                margin: 6px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: auto;
+            }
+
+            .nav-btn-clicked {
+                background: #3ddb77;
+            }
+
+            .navbar-buttons a {
+                color: ghostwhite;
+                text-align: center;
+                padding: 12px 30px 12px 30px;
+                margin: 0px 10px;
+                text-decoration: none;
+                font-size: 24px;
+                border-bottom: solid 4px transparent;
+                transition: all 300ms ease-in-out;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                white-space: nowrap;
+            }
+
+            .navbar-buttons a:hover {
+                border-bottom: solid 4px #47fc89;
+            }
+
+            .Header {
+                display: flex;
+                flex: 0 1 auto;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .Header a img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                max-width: 800px;
+            }
+
+           
+
+
+
+
+            .range_container {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                margin: 5% auto;
+            }
+
+            .sliders_control {
+                position: relative;
+                min-height: 50px;
+            }
+
+            .form_control {
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                font-size: 24px;
+                color: #635a5a;
+            }
+
+            input[type=range]::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                pointer-events: all;
+                width: 24px;
+                height: 24px;
+                background-color: #fff;
+                border-radius: 50%;
+                box-shadow: 0 0 0 1px #C6C6C6;
+            cursor: pointer;
+                }
+
+            input[type=range]::-moz-range-thumb {
+                -webkit-appearance: none;
+                pointer-events: all;
+                width: 24px;
+                height: 24px;
+                background-color: #fff;
+                border-radius: 50%;
+                box-shadow: 0 0 0 1px #C6C6C6;
+                cursor: pointer;  
+            }
+
+            input[type=range]::-webkit-slider-thumb:hover {
+                background: #f7f7f7;
+            }
+
+            input[type=range]::-webkit-slider-thumb:active {
+                box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+                -webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+            }
+
+            input[type="number"] {
+                color: #8a8383;
+                width: 50px;
+                height: 30px;
+                font-size: 20px;
+                border: none;
+            }
+
+            input[type=number]::-webkit-inner-spin-button, 
+            input[type=number]::-webkit-outer-spin-button {  
+                opacity: 1;
+            }
+
+            input[type="range"] {
+                -webkit-appearance: none; 
+                appearance: none;
+                height: 2px;
+                width: 100%;
+                position: absolute;
+                background-color: #C6C6C6;
+                pointer-events: none;
+            }
+
+            #fromSlider {
+                height: 0;
+                z-index: 1;
+            }   
+
+            .card {
+                padding: 1rem;
+                border: 1px solid black;
+                margin: 1rem;
+            }
+
+            .meterDiv{
+                margin: 0.5rem;
+                width: 1200px;
+                height: 500px;
+                }
+
+            .card_img{
+                max-width:100%;
+                max-height: 90%;
+                object-fit: contain;
+            }
+
+            .card_container{
+                width: auto;
+                height: auto;
+                flex-direction: row;
+                align-content: center;
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+
+            .graphDiv{
+                width: 100%;
+                height: 90%;
+            }
+
+            .meter_heading{
+                width: 100%;
+                align-content: center;
+                justify-content: center;
+                font-family: monospace;
+
+                text-align: center;
+                color: #3ddb77;
+                font-size: 2.5rem;
+            }
+
+            .slider-header{
+                font-size: 3rem;
+                font-family: monospace;
+                color: #47fc89;
+            }
+
+            .slider-header-container{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin-top: 40px;
+            }
+
         </style>
     </head>
     <body>
-        <div class="viewConfig">
-            <div>
-                <p>View meters</p>
-                <input type="number" name="" id="">
-                <p>to</p>
-                <input type="number" name="" id=""> 
+        <div style="display: flex;flex-direction: column;height: 100%;"></div>
+            <div class="Header">
+                <p style="font-size: 40px; color: ghostwhite;"><span style="color: #47fc89;">Green</span>Hack 2023</p>
             </div>
-        </div>
-        <div class="metersView">
-            <div class="meterDiv">
-                <p>Meter 1</p>
-                <div class="graphDiv">
-                    <canvas id="graphCanvas"></canvas>
+            <div class="navbar">
+                <div class="navbar-buttons">
+                    <a  href="{{ url_for('home')}}" ><b>Home</b></a>
+                    <a class="nav-btn-clicked" href="{{ url_for('meters') }}" ><b>Meter view</b></a>
+                    <a href="{{ url_for('regulation') }}" ><b>Grid Regulation</b></a>
+                    <a href="{{ url_for('marketplace')}}" ><b>Regulator Marketplace</b></a>
                 </div>
             </div>
-            <div class="meterDiv">
-                <p>Meter 2</p>
-                <div class="graphDiv">
-                    <canvas id="graphCanvas2"></canvas>
+
+
+            <div class="slider-header-container">
+                <h2 class="slider-header"> View Meters</h2>
+            </div>
+
+
+            <div class="range_container">
+                <div class="sliders_control">
+                    <input id="fromSlider" type="range" value="35" min="0" max="288"/>
+                    <input id="toSlider" type="range" value="40" min="0" max="288"/>
+                </div>
+                <div class="form_control">
+                    <div class="form_control_container">
+                        <div class="form_control_container__time">Min</div>
+                        <input class="form_control_container__time__input" type="number" id="fromInput" value="10" min="0" max="288"/>
+                    </div>
+                    <div class="form_control_container">
+                        <div class="form_control_container__time">Max</div>
+                        <input class="form_control_container__time__input" type="number" id="toInput" value="40" min="0" max="288   "/>
+                    </div>
                 </div>
             </div>
-            <div class="meterDiv">
-                <p>Meter 3</p>
-                <div class="graphDiv">
-                    <canvas id="graphCanvas3"></canvas>
-                </div>
+
+
+            <div class="card_container" id="accordion">
+  
             </div>
-        </div>
+
+
+            
         <script>
+
+
+
+            var slider_start = 0;
+            var slider_end = 0;
+            var slider_update_timeout = 500;
+            var temp_timeout_idx;
+            var meters = {{meter_data | tojson }};
+            var max_bound = {{max_bound}};
+            var min_bound = 0;
+
+
+            //update components
+            const slider = document.getElementById("toSlider");
+            slider.setAttribute("max", max_bound);
+
+            // Changing the max value of the input field
+            const input = document.getElementById("toInput");
+            input.setAttribute("max", max_bound);
+            var fromSlider = document.querySelector('#fromSlider');
+            var toSlider = document.querySelector('#toSlider');
+            fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+            setToggleAccessible(toSlider);
+
             // Initialize Chart.js
-            var ctx = document.getElementById('graphCanvas').getContext('2d');
+            /*var ctx = document.getElementById('graphCanvas').getContext('2d');
             const plugin = {
                 id: 'customCanvasBackgroundColor',
                 beforeDraw: (chart, args, options) => {
@@ -167,34 +413,175 @@
 
                 plugins:[plugin],
             });
-
-            // Generate random data
-            function generateData() {
-                var data = [];
-                for (var i = 0; i < 20; i++) {
-                    data.push(Math.floor(Math.random() * 10) + 1);
+            */
+        
+            function controlFromInput(fromSlider, fromInput, toInput, controlSlider) {
+                const [from, to] = getParsed(fromInput, toInput);
+                fillSlider(fromInput, toInput, '#C6C6C6', '#25daa5', controlSlider);
+                if (from > to) {
+                    fromSlider.value = to;
+                    fromInput.value = to;
+                } else {
+                    fromSlider.value = from;
                 }
-                return data;
+
+                if(slider_end == 0){
+                    slider_end = to;
+                }
+                slider_start = fromSlider.value;
+                clearTimeout(temp_timeout_idx);
+                temp_timeout_idx = setTimeout(function(){
+                    draw_cards(slider_end-slider_start,slider_start);
+                },slider_update_timeout);
+            }
+                
+            function controlToInput(toSlider, fromInput, toInput, controlSlider) {
+                const [from, to] = getParsed(fromInput, toInput);
+                fillSlider(fromInput, toInput, '#C6C6C6', '#25daa5', controlSlider);
+                setToggleAccessible(toInput);
+                if (from <= to) {
+                    toSlider.value = to;
+                    toInput.value = to;
+                    slider_end = to;
+                } else {
+                    toInput.value = from;
+                }
+
+                slider_end = toSlider.value;
+                clearTimeout(temp_timeout_idx);
+                temp_timeout_idx = setTimeout(function(){
+                    draw_cards(slider_end-slider_start,slider_start);
+                },slider_update_timeout);
             }
 
-            // Update the graph with the generated data
-            function updateGraph() {
-                var data = generateData();
-                chart.data.labels = data.map(function(_, index) { return ''; });
-                chart.data.datasets[0].data = data;
-                chart.update();
+            function controlFromSlider(fromSlider, toSlider, fromInput) {
+                const [from, to] = getParsed(fromSlider, toSlider);
+                fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+                if (from > to) {
+                    fromSlider.value = to;
+                    fromInput.value = to;
+                } else {
+                    fromInput.value = from;
+                }
+
+                if (slider_end == 0){
+                    slider_end = to;
+                }
+                slider_start = fromSlider.value;
+                clearTimeout(temp_timeout_idx);
+                temp_timeout_idx = setTimeout(function(){
+                    draw_cards(slider_end-slider_start,slider_start);
+                },slider_update_timeout);
             }
 
-            function updateGraph02() {
-                var data = generateData();
-                chart.data.labels = data.map(function(_, index) { return ''; });
-                chart.data.datasets[1].data = data;
-                chart.update();
+            function controlToSlider(fromSlider, toSlider, toInput) {
+                const [from, to] = getParsed(fromSlider, toSlider);
+                fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+                setToggleAccessible(toSlider);
+                if (from <= to) {
+                    toSlider.value = to;
+                    toInput.value = to;
+                } else {
+                    toInput.value = from;
+                    toSlider.value = from;
+                }
+                slider_end=toSlider.value;
+                clearTimeout(temp_timeout_idx);
+                temp_timeout_idx = setTimeout(function(){
+                    draw_cards(slider_end-slider_start,slider_start);
+                },slider_update_timeout);  
             }
 
-            // Update the graph periodically
-            setInterval(updateGraph, 1000);
-            setInterval(updateGraph02, 1000);
+            function getParsed(currentFrom, currentTo) {
+                const from = parseInt(currentFrom.value, 10);
+                const to = parseInt(currentTo.value, 10);
+                return [from, to];
+            }
+
+            function fillSlider(from, to, sliderColor, rangeColor, controlSlider) {
+                const rangeDistance = max_bound-min_bound;
+                const fromPosition = from.value - to.min;
+                const toPosition = to.value - to.min;
+                controlSlider.style.background = `linear-gradient(
+                to right,
+                ${sliderColor} 0%,
+                ${sliderColor} ${(fromPosition)/(rangeDistance)*100}%,
+                ${rangeColor} ${((fromPosition)/(rangeDistance))*100}%,
+                ${rangeColor} ${(toPosition)/(rangeDistance)*100}%, 
+                ${sliderColor} ${(toPosition)/(rangeDistance)*100}%, 
+                ${sliderColor} 100%)`;
+            }
+
+            function setToggleAccessible(currentTarget) {
+                const toSlider = document.querySelector('#toSlider');
+                if (Number(currentTarget.value) <= 0 ) {
+                    toSlider.style.zIndex = 2;
+                } else {
+                    toSlider.style.zIndex = 0;
+                }
+            }
+
+            fromSlider = document.querySelector('#fromSlider');
+            toSlider = document.querySelector('#toSlider');
+            const fromInput = document.querySelector('#fromInput');
+            const toInput = document.querySelector('#toInput');
+            fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+            setToggleAccessible(toSlider);
+
+            fromSlider.oninput = () => controlFromSlider(fromSlider, toSlider, fromInput);
+            toSlider.oninput = () => controlToSlider(fromSlider, toSlider, toInput);
+            fromInput.oninput = () => controlFromInput(fromSlider, fromInput, toInput, toSlider);
+            toInput.oninput = () => controlToInput(toSlider, fromInput, toInput, toSlider);
+
+
+            //create image cards
+
+            function draw_cards(cnt,start_idx){
+                const container = document.getElementById('accordion');
+                console.log(cnt);
+                container.innerHTML = '';
+                const apiResult = [{
+                    title: "Meter1",
+                    description: "desc1",
+                    img_url: "https://freesvg.org/img/uno-r3.png"
+                    }, {
+                    title: "Meter2",
+                    description: "desc2",
+                    output:  "https://freesvg.org/img/uno-r3.png"
+                    }, {
+                    title: "Meter3",
+                    description: "desc3",
+                    img_url:  "https://freesvg.org/img/uno-r3.png"},
+                    {
+                    title: "Meter4",
+                    description: "desc3",
+                    img_url:  "https://freesvg.org/img/uno-r3.png"
+                }];
+                //apiResult.forEach((result, idx) => {
+                // Create card element
+                for(var i = 0;i<cnt;i++){ 
+                const card = document.createElement('div');
+                card.classList = 'card-body';
+                result = apiResult[0]
+
+                // Construct card content
+                const content = `
+                    <div class="meterDiv">
+                        <p class = "meter_heading">${result.title}</p>
+                        <div class="graphDiv">
+                            <img class = "card_img" src = "${result.img_url}">
+                        </div>
+                    </div>
+                `;
+
+                // Append newly created card element to the container
+                container.innerHTML += content;
+                }//)
+            }
+            
+
+
+        
         </script>
     </body>
 </html>

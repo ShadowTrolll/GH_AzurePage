@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <title>I2WI</title>
+
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            html, body {
+                border: 0 none;
+                height: 100%;
+                width: 100%;
+                background-color:#181f1b;
+            }
+
+            .Header {
+                display: flex;
+                flex: 0 1 auto;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .Header a img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                max-width: 800px;
+            }
+
+            .navbar {
+                flex: 0 1 auto;
+                background-color:#434d47;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            @media only screen and (max-width: 500px) {
+                .navbar .navbar-buttons {
+                    justify-content: center;
+                    gap: 6px;
+                }
+
+                .navbar-buttons a {
+                    flex-grow: 1;
+                }
+            }
+
+            .navbar-buttons {
+                margin: 6px 0px;
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: auto;
+            }
+
+            .nav-btn-clicked {
+                background: #3ddb77;
+            }
+
+            .navbar-buttons a {
+                color: ghostwhite;
+                text-align: center;
+                padding: 12px 30px 12px 30px;
+                margin: 0px 10px;
+                text-decoration: none;
+                font-size: 24px;
+                border-bottom: solid 4px transparent;
+                transition: all 300ms ease-in-out;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                border-radius: 20px;
+                white-space: nowrap;
+            }
+
+            .navbar-buttons a:hover {
+                border-bottom: solid 4px #47fc89;
+            }
+
+            .main {
+                margin-left: 7%;
+                margin-right: 7%;
+                border: none;
+                min-height: 2000px;
+                display: flex;
+            }
+
+
+
+
+            .slider-header{
+                font-size: 3rem;
+                font-family: monospace;
+                color: #47fc89;
+                margin-bottom: 4rem;
+            }
+
+            .slider-header-container{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin-top: 40px;
+            }
+
+
+
+
+
+
+
+            .card-list {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            .card {
+                position: relative;
+                display: inline-block;
+                width: 700px;
+                height: 700px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-bottom: 10%;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .card img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+                overflow: hidden;
+                border-radius: 70px;
+            }
+
+            .card-title{
+                color: #47fc89;
+                font-family: monospace;
+                font-size: 30px;
+            }
+
+            .card .content {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 35%;
+                padding: 20px;
+                background-color:black;
+                color: #fff;
+            }
+
+            .card p{
+                height: 50%;
+            }
+
+
+            .card button {
+                margin-top: 10px;
+                margin-left: 20px;
+                padding: 8px 16px;
+                background-color: #337ab7;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                width: auto;
+                height: 50px;
+                cursor: pointer;
+                align-content: right;
+                font-size: 15px;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div style="display: flex;flex-direction: column;height: 100%;">
+            <div class="Header">
+                <p style="font-size: 40px; color: ghostwhite;"><span style="color: #47fc89;">Green</span>Hack 2023</p>
+            </div>
+            <div class="navbar">
+                <div class="navbar-buttons">
+                    <a  href="{{url_for('home')}}" ><b>Home</b></a>
+                    <a href="{{ url_for('meters') }}" ><b>Meter view</b></a>
+                    <a href="{{ url_for('regulation') }}" ><b> Grid Regulation</b></a>
+                    <a class="nav-btn-clicked" href="{{ url_for('marketplace')}}" ><b>Regulator Marketplace</b></a>
+                </div>
+            </div>
+            <!--<iframe src="./home.html" class="main" name="content_frame"></iframe>-->
+
+            <div class="slider-header-container">
+                <h2 class="slider-header"> Regulator Marketplace - Shop for Controll</h2>
+            </div>
+
+            <div class="card-list">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG" alt="Card Image">
+                    <div class="content">
+                      <h3 class="card-title">State-space feedback control</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam eget nisl. Fusce wisi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                      <button class="btn1">Technical Details</button>
+                      <button class="btn2">Buy or Free Trial</button>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG" alt="Card Image">
+                    <div class="content">
+                      <h3 class="card-title">PID control</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam eget nisl. Fusce wisi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                      <button class="btn1">Technical Details</button>
+                      <button class="btn2">Buy or Free Trial</button>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG" alt="Card Image">
+                    <div class="content">
+                      <h3 class="card-title">Optimization based control</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam eget nisl. Fusce wisi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                      <button class="btn1">Technical Details</button>
+                      <button class="btn2">Buy or Free Trial</button>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG" alt="Card Image">
+                    <div class="content">
+                      <h3 class="card-title">Bang-Bang control</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam eget nisl. Fusce wisi. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                      <button class="btn1">Technical Details</button>
+                      <button class="btn2">Buy or Free Trial</button>
+                    </div>
+                  </div>
+            </div>
+            
+            
+
+        </div>
+
+    </body>
+</html>
