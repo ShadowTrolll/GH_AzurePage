@@ -35,4 +35,4 @@ def regulation():
 
 @app.route("/")
 def main():
-    return render_template("PageFiles/index.html")
+    return render_template("index.html")
