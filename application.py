@@ -35,18 +35,4 @@ def regulation():
 
 @app.route("/")
 def main():
-
-
-    meters = {}
-    for i in range(288):
-        meters[i] = [i,"resiential",123,"https://freesvg.org/img/uno-r3.png"]
-
-    meters_compressed = jsonify(meters)
-
-    
-    app.logger.info("app running")
-    return render_template("index.html")
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
+    return render_template("PageFiles/index.html")
